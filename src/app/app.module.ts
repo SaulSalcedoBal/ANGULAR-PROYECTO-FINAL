@@ -67,7 +67,7 @@ export function tokenGetter() {
         // whitelistedDomains: ["localhost:5000"],
         // whitelistedDomains: ["localhost:44378"],
         // blacklistedRoutes: []
-        allowedDomains: ["localhost:44378"],
+        allowedDomains: ["192.168.1.68:9090"],
         disallowedRoutes: []
       }
     }),

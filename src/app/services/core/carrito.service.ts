@@ -3,9 +3,9 @@ import { Injectable } from '@angular/core';
 import { LoginService } from './login.service';
 
 // const endPoint: string = 'http://localhost:3000/v1/carrito/getAll/1/5/2';
-const endPoint: string = 'http://localhost:3001/v1/carrito/';
-const endPoint2: string = 'https://apimtwdmfinalproject.azurewebsites.net/api/product/wishlist/';
-const endPoint3: string = 'https://apimtwdmfinalproject.azurewebsites.net/api/order/cart';
+const endPoint: string = 'http://192.168.1.68:3000/v1/carrito/';
+const endPoint2: string = 'http://192.168.1.68:9090/api/product/wishlist/';
+const endPoint3: string = 'http://192.168.1.68:9090/api/order/cart';
 
 @Injectable({
   providedIn: 'root'

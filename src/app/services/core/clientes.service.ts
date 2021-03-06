@@ -1,9 +1,9 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-const endPoint: string = 'https://apimtwdmfinalproject.azurewebsites.net/api/user';
-const endPointWishlist: string = 'https://apimtwdmfinalproject.azurewebsites.net/api/product/wishlist/';
-const endPointCode: string = 'https://apimtwdmfinalproject.azurewebsites.net/api/code/';
+const endPoint: string = 'http://192.168.1.68:9090/api/user';
+const endPointWishlist: string = 'http://192.168.1.68:9090/api/product/wishlist/';
+const endPointCode: string = 'http://192.168.1.68:9090/api/code/';
 
 
 @Injectable({

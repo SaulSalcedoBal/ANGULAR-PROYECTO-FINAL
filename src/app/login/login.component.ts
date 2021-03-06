@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
     // return;
     const credentials = JSON.stringify(form.value);
     // this.http.post("http://localhost:5000/api/auth/login",
-    this.http.post("https://localhost:44378/api/auth/Login",
+    this.http.post("https://192.168.1.68:9090/api/auth/Login",
     credentials, {
       headers: new HttpHeaders({
         "Content-Type": "application/json"

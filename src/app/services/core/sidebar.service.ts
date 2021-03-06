@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { LoginService } from './login.service';
 
 // const endPoint: string = 'assets/json/menu.json';
-const endPoint: string = 'https://apimtwdmfinalproject.azurewebsites.net/api/menu';
+const endPoint: string = 'http://192.168.1.68:9090/api/menu';
 const endPoint2: string = 'assets/json/menuAuthenticated.json';
 
 @Injectable({

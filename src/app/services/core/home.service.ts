@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 
 
 // const endPoint: string = 'assets/json/cards-main.json';
-const endPoint: string = 'https://apimtwdmfinalproject.azurewebsites.net/api/product/populares';
+const endPoint: string = 'http://192.168.1.68:9090/api/product/populares';
 
 @Injectable({
   providedIn: 'root'
